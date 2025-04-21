@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Heart Rain Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="sketch.js" defer></script>
+</head>
+<body>
+    <!-- Welcome screen: visible first -->
+  <div id="welcome-screen">
+  <h1>Hey Jaima! 🎉</h1>
+  <p>Welcome to your special birthday surprise.<br>
+     Ready to test how well you know me?</p>
+  <!-- countdown goes here -->
+  <p id="countdown-text">Starting in <span id="countdown">10</span>…</p>
+</div>
+  <!-- Quiz container: hidden until after welcome -->
+  <div id="quiz-container" style="display: none;"></div>
+</body>
+</html>
