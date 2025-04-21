@@ -267,7 +267,7 @@ function showProposalScreen() {
   container.innerHTML = `
     <div id="proposal-text">
       <h1>Jaima,</h1>
-      <p>Will you marry me? ❤️</p>
+      <p>I know this is not much, but I wanted to show you how much you mean to me.\nYou are the best thing that has happened to me and I am forever grateful for that\nWill you marry me? ❤️</p>
     </div>
   `;
 
